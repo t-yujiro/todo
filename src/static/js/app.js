@@ -2,11 +2,11 @@ function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
-            <h>
+            <h1>
                 <Col md={{ offset: 3, span: 6 }}>
                         To do app by Yujiro Tamura
                 </Col>
-            </h>
+            </h1>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
